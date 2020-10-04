@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<!--
+Template Name: Responsive Bootstrap Website by tanzTalks.tech
+Author: <a href="https://www.youtube.com/tanztalkstech/>tanzTalks.tech</a>
+Author URI: https://www.facebook.com/tanzTalks.tech
+Licence: Free to use
+-->
+<html>
+<head>
+	<!-- Meta Information -->
+    <meta name="author" content="Er. Tanzeel O. Ansari">
+    <meta name="description" content="Create Responsive Animated Website using HTML5, CSS3, Bootstrap & JavaScript">
+
+	<!-- Webpage Title -->
+    <title>Responsive Bootstrap Website with Animation | Example 8</title>
+
+    <!-- To ensure proper rendering and touch zooming in mobile phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CDN for Font Awesome Icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CDN for Google Fonts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Bootstrap (CSS) -->
+    <link 
+    rel="stylesheet"
+    href="https://cdn.rtlcss.com/bootstrap/v4.2.1/css/bootstrap.min.css"
+    integrity="sha384-vus3nQHTD+5mpDiZ4rkEPlnkcyTP+49BhJ4wJeJunw06ZAp+wzzeBPUXr42fi8If"
+    crossorigin="anonymous">    <!-- "Animate" Plugin to get Animation (But animation will start as soon as page loads) -->
+    <link rel="stylesheet" type="text/css" href="styles/animate.min.css">
+    <!-- External CSS Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+	<!-- WOW Plugin to Start Animation on Scroll -->
+	<script type="text/javascript" src="scripts/wow.min.js"></script>
+	<!-- Start WOW() service -->
+	<script type="text/javascript">new WOW().init();</script>
+
+	
+
+</head>
+
+<body id="top" date-spy="scroll" date-target='.navbar' date-offset='60'>
+    <div class="wrapper bg-white border" id="home">
+        <div class="container">
+            <nav class="navbar navbar-expand-md p-0 navbar-light bg-white ">
+                <div class="collapse navbar-collapse justify-content-between" id="secondaryNavbar">
+                    <!-- links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item PX-2 m-0">
+                            <a href="#" class="nav-link m-0">
+                                <p class="m-0"> <small>الراءيسيه</small>    </p>
+                            </a>
+                        </li>
+                        <li class="nav-item PX-2 m-0">
+                            <a href="#" class="nav-link m-0">
+                                <p class="m-0"> <small>القتوات</small>    </p>
+                            </a>
+                        </li>
+                        <li class="nav-item PX-2 m-0">
+                            <a href="#" class="nav-link m-0">
+                                <p class="m-0"> <small>ارشيف</small>    </p>
+                            </a>
+                        </li>
+                        <li class="nav-item PX-2 m-0">
+                            <a href="#" class="nav-link m-0">
+                                <p class="m-0"> <small>اتصل بينا</small> </p>
+                            </a>
+                        </li>
+
+
+                    </ul>
+                    <!-- Social icons -->
+                    <ul class=" d-flex social-icon list-unstyled  justify-content-between">
+                        <li><a href="#" class="faicon-facebook rounded-circle px-1">
+                            <i class="fa fa-facebook"></i>
+                        </a></li>
+
+                        <li><a href="#" class="faicon-instagram rounded-circle px-1">
+                            <i class="fa fa-instagram"></i>
+                        </a></li>
+                        <li><a href="#" class="faicon-twitter rounded-circle px-1">
+                            <i class="fa fa-twitter"></i>
+                        </a></li> 
+                        <li>
+                            <a href="#" class="faicon-twitter rounded-circle px-1">
+                            <i class="fa fa-twitter"></i>
+                        </a></li>
+                       
+                       
+
+                    </ul>
+                </div>
+
+            </nav>
+            
+
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="wrapper py-3 px-5 text-secondary bg-white " id="header">
+        <header class="d-flex flex-row justify-content-between">
+            <h1 class="d-flex align-item-center">
+                <a href="" class="t3">
+                    تانزتك.<span class="text-success">تيك</span>
+                </a>
+            </h1>
+            <h2 class="align-self-end"><small> بعض من اعمالنا ف التصميم</small></h2>
+
+
+        </header>
+    </div>
+    <!-- Navigation -->
+    <div class="wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary p-0" id="mainNavbar">
+            <!-- navbar logo -->
+                <a href="#home" class="navbar-brand py-1 ml-3">
+                    <img src="gallery/logo.png" alt=""style="height:33px">
+                </a>
+
+                <!-- collapse button to replace links -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbarContent">
+                    <span class="nabar-toggle-icon"></span>
+                    <span class="nabar-toggle-icon"></span>
+                    <span class="nabar-toggle-icon"></span>
+                </button>
+                <!-- navigation links -->
+                <div class="collapse navbar-collapse justify-content-around" id="mainNavbarContent">
+                    <ul class="navbar-nav">
+                        <li class="navbar-item active">
+                            <a class="nav-link px-3" href="#home" >الراءيسيه</a>
+                            </li>
+                            
+                            <li class="navbar-item">
+                            <a  class="nav-link px-3" href="#services"  >خدمات</a>
+
+                            </li>
+                        <li class="navbar-item">
+                            <a  class="nav-link px-3 "href="#text-over-image"  >نص</a>
+
+
+                        </li>
+                        <li class="navbar-item">
+                            <a  class="nav-link px-3" href="#text-overlap-image" >تخفيضات</a>
+
+
+                        </li>
+                        <li class="navbar-item">
+                            <a  class="nav-link px-3" href="#testmonials-carousel"  >عن منتجاتنا  </a>
+
+
+                        </li>
+                        <li class="navbar-item">
+                            <a  class="nav-link px-3" href="#news-blog" >تخفيضات 2  </a>
+
+
+                        </li>
+                        <li class="navbar-item">
+                            <a  class="nav-link px-3" href="#body-footer" >عنا  </a>
+
+
+                        </li>
+                        <li class="navbar-item dropdown">
+                            <a  class="nav-link dropdown-toggle px-3" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown">لغه  </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="../../index.html" class="dropdown-item">EN</a>
+                                <a href="../New folder/AR/New folder/index.html" class="dropdown-item">AR</a>
+                            </div>
+
+
+                        </li>
+                        
+                        <!-- right link -->
+                        <ul class="nav-item">
+                            <a href="#" class="nav-link disabled px-3">دخول</a>
+                        </ul>
+                       
+                    </ul>
+                </div>
+        </nav>
+    </div>
+
+
+    <!-- cover image -->
+     <div class=" wrapper overlay" id="cover-image">
+         <div class="hor-cen ml-5 pl-5" id="pageintro">
+             <article class="ml-5 pl-5">
+                 <h3 class="heading pb-3" >تصميم بوتستراتب</h3>
+                <p class="text-secondary">تصميم موقع باستخدام البوتستراب</p>
+                <footer class="mt-5 pt-5">
+                    <ul class="m-0">
+                        <li class="d-inline-block mr-4">
+                            <a href="" class="btn btn-danger btn-lg">ابداء</a>
+                        </li>
+                        <li class="d-inline-block">
+                            <a href="" class="btn btn-outline-secondary text-white btn-lg">اعرف اكتر!</a>
+                        </li>
+                    </ul>
+
+                </footer>
+                
+             </article>
+         </div>
+
+
+     </div>
+      <div class="container">
+          <div class="content-wrapper border border-light rounded">
+              <!-- services -->
+              <div class="wrapper bg-white text-secondary p-5" id="services">
+                  <div class="p-5">
+
+                      <div class="text-center pb-5">
+                          <h2 class="heading"> بعض من خدماتنا التي نقدمها</h2>
+                          <p>ما هي فاءده الدامب لك!!</p>
+                      </div>
+                      <ul class="row">
+                          <li class="col-md-4 pr-5">
+                              <article>
+                                <i class="fas fa-tools"></i>
+                                <h6 class="heading">أدوات </h6>                                  
+                                <p>الأدوات المدرسية هي عبارة عن على الأدوات القِرطاسية بل يشمل أيضًا الآلات الحاسبة[$hellip;]</p>
+                                    <footer class="mt-4">
+                                        <a href="" class="btn btn-danger">اقراءاكتر</a>
+                                    </footer>
+                              </article>
+
+                          </li>
+                          <li class="col-md-4 pr-5">
+                            <article>
+                             
+
+                              <i class="fas fa-drafting-compass"></i>
+                              <h6 class="heading">البيه </h6>                                 
+                              
+                                <p>لغة هي المنزل والحال، وتضمّ البيئة العديد من الأنواع، فهناك البيئة الطبيعيّة، والبيئة الاجتماعيَّة،
+
+                                     "$hellip;"</p>
+                                  <footer class="mt-4">
+                                      <a href="" class="btn btn-danger">اقراء اكتر</a>
+                                  </footer>
+                            </article>
+
+                        </li>
+                        <li class="col-md-4 pr-5">
+                            <article>
+                             
+
+                              <i class="fas fa-atom"></i>  
+                                <h6 class="heading">اتومي</h6>
+                                <p>العديد من الأنواع، فهناك البيئة الطبيعيّةالعديد من الأنواع، فهناك البيئة الطبيعيّة  [$hellip;]</p>
+                                  <footer class="mt-4">
+                                      <a href="" class="btn btn-danger">اقراء اكتر</a>
+                                  </footer>
+                            </article>
+
+                        </li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- end services -->
+
+              <!-- text block over image -->
+              <div class="wrapper p5" id="text-over-image">
+                  <div class="d-flex flex-row-reverse p-5">
+                      <div class="col-md-6 p-5 overlay red">
+                          <section>
+                              <h2 class="heading">جواب اعتراف فوق الصوره</h2>
+                              <p>  هو علم شامل يختصّ بدراسة العلاقات المتبادلة بين الكائنات الحيّة نفسها، وبين الكائنات الحيّة والعوامل والكائنات غير الحيّة التي تُحيط بها وتؤثّر على وجودها وتوزيعها، ويرتبط علم البيئة بالعديد من العلوم، مثل: علوم الأرض، والكيمياء، والأرصاد
+
+                                إقرأ المزيد على موضوع </p>
+                              <ul class="fa-ul">
+                                  <li> <i class=" fa-li fas fa-check-circle"></i> المجموع الكلي للمحفزَات التي يستقبلها منذ لحظة ولادته حتى وفاته)، بالتالي يتضمن تعريف البيئة جميع أنواع القوى المختلفة، بما فيها: القوى المادية، والفكرية، والاقتصادية
+
+                                    
+                                </li>
+                                <li> <i class=" fa-li fas fa-check-circle"></i>
+                                    المجموع الكلي للمحفزَات التي يستقبلها منذ لحظة ولادته حتى وفاته)، بالتالي يتضمن تعريف البيئة جميع أنواع القوى المختلفة، بما فيها: القوى المادية، والفكرية، والاقتصادية
+
+                                                                    </li>
+                              </ul>
+                              <p class="mb-5"> هي العناصر التي تُشكل المحيط الحيوي، كالنباتات، والحيوانات، والكائنات الحية الدقيقة، والبشر.
+
+                                  </p>
+                              <footer>
+                                  <a href="" class="btn btn-danger"> اقراء اكتر &raquo;</a>
+                              </footer>
+                          </section>
+                      </div>
+                  </div>
+
+              </div>
+            <!-- end text block over image -->
+
+            <!-- text blick overlapping image -->
+            <div class="wrapper bg-white text-seconary  p-5" id="text-overlap-image">
+                <div class="row p-5 align-items-center justify-content-center">
+                    <!-- first column -->
+                    <div class="col-md-7" id="first-column">
+                        <a href=""><img src="../New folder/gallery/pic-overlap.jpg" alt=""></a>
+                        </div>
+                        <!-- secound column -->
+                        <div class="col-md-5 p-5 " id="second-column">
+                            <p class="font-xs"> العناصر التي تُحدد الطابع</p>
+                            <h2 class="heading mb-3">تتمثل البيئة في ثلاثة أنواع تؤثر على شخصية الفرد</h2>
+                            <P>.. فجوة بين عالمنا وعالم تاني.. بضغطة واحدة هتتنقل لمكان صعب الرجوع منه.. عالم غاب فيه القانون، وحياتك فيه مباحه لدرجة ممكن تخسرها في ثاني</P>
+                            <P>.. فجوة بين عالمنا وعالم تاني.. بضغطة واحدة هتتنقل لمكان صعب الرجوع منه.. عالم غاب فيه القانون، وحياتك فيه مباحه لدرجة ممكن تخسرها في ثاني</P>
+ح                              <footer><a href="">اقؤاء المزيد &raquo;</a></footer>
+                        </div>
+
+
+                </div>
+
+            </div>
+            <!-- end text blick overlapping image -->
+
+            <!-- START TEASTMONIALS -->
+           <div class=" carousel slide wrapper overlay red p-5" date-ride="carousel" id="testmonials-carousel">
+               <!-- title -->
+               <div class="text-center pt-5">
+                   <h2 class="heading">بعض من اعمالانا </h2>
+                   <p>الجزء الرابع الذي أنتج عام 2011 وحمل اسم ( قراصنة الكاريبي : الغريب في المد والجزر ) برغم أن الشخصية التي مثلها كانت غريبة</p>
+
+               </div>
+                <!-- indicators -->
+                <ul class="carousel-indicators" date-keyboard="true">
+                    <li data-target="#testmonials-carousel" date-slide-to="0"class="active"></li>
+                    <li  data-target="#testmonials-carousel" date-slide-to="1"></li>
+                    <li data-target="#testmonials-carousel" date-slide-to="2"></li>
+
+                </ul>
+                <!-- slideshow -->
+                <div class="carousel-inner pb-5">
+                    <!-- first slide active -->
+                     <div class="carousel-item active">
+                         <div class="row testmonials justify-content-center"> 
+                             <article class="col-md-5 pt-5 text-center">
+                                 <img src="gallery/face-1.png" style="height: 150px;  " class="rounded-circle" alt="">
+                                 <blockquote class="my-3">
+                                     "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                                 </blockquote >
+                                 <h5 class="heading">جون سنو</h5>
+                                 <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+
+                             </article> 
+                             <article class="col-md-5 pt-5 text-center">
+                                <img src="gallery/face-2.png" style="height: 150px;  " class="rounded-circle" alt="">
+                                <blockquote class="my-3">
+                                    "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                                </blockquote >
+                                <h5 class="heading">جون سنو</h5>
+                                <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+
+
+                            </article> 
+                            </div>
+                     </div>
+                     <!-- second item -->
+                     <div class="carousel-item ">
+                        <div class="row testmonials justify-content-center"> 
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="gallery/face-1.png" style="height: 150px;  " class="rounded-circle" alt="">
+                                <blockquote class="my-3">
+                                    "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                                </blockquote >
+                                <h5 class="heading">جون سنو</h5>
+                                <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+
+                            </article> 
+                            <article class="col-md-5 pt-5 text-center">
+                               <img src="gallery/face-2.png" style="height: 150px;  " class="rounded-circle" alt="">
+                               <blockquote class="my-3">
+                                "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                            </blockquote >
+                            <h5 class="heading">جون سنو</h5>
+                            <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+                           </article> 
+                           </div>
+                    </div>
+                    <!-- third item -->
+                    <div class="carousel-item ">
+                        <div class="row testmonials justify-content-center"> 
+                            <article class="col-md-5 pt-5 text-center">
+                                <img src="gallery/face-1.png" style="height: 150px;  " class="rounded-circle" alt="">
+                                <blockquote class="my-3">
+                                    "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                                </blockquote >
+                                <h5 class="heading">جون سنو</h5>
+                                <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+                            </article> 
+                            <article class="col-md-5 pt-5 text-center">
+                               <img src="gallery/face-2.png" style="height: 150px;  " class="rounded-circle" alt="">
+                               <blockquote class="my-3">
+                                "لد جوني ديب في أونزبورو، كنتاكي ابنًا لكل من بيتي سو بالمر وهي كاتبة وجون كريستفور ديب سينيور وهو مهندس مدني، ولديه شقيق واحد وشقيقتين. تعود أصوله إلى ألمانيا، وأصول بعيدة من قبيلة شيروكي الهندية من جهة والدته، إضافة لأصوله الآيرلندية. كذلك لجوني ديب أصول فرنسية تعود لأوائل الفرنسيين الذين استوطنوا أمريكس"
+                            </blockquote >
+                            <h5 class="heading">جون سنو</h5>
+                            <p class="font-xs">أوائل الفرنسيين الذين استوطنوا</p>
+
+                           </article> 
+                           </div>
+                    </div>
+                    <!-- left and right control buttons -->
+                    <a href="#testmonials-carousel" class="carousel-control-prev p-30" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#testmonials-carousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>    
+
+
+            </div>
+
+
+
+            <!-- end TEASTMONIALS -->
+
+            <!-- news and updates -->
+            <div class="wrapper p-5 bg-light text-secondary" id="news-blog">
+            <div class="p-5">
+                <div class="text-center">
+                    <h2 class="heading">اخبار وتعديلات</h2>
+                    <p>بدأ جوني ديب من خلال فيلم الرعب الأيقوني الذي تلقّى إشادة كبيرة كابوس شارع إيلم في عام 1984. </p>
+
+                </div>
+                <!-- conten -->
+                <div class="row blog">
+                    <div class="col-md-7">
+                        <article class="pt5">
+                            <figure>
+                                <a href="" class="img-hover"><img src="../New folder/gallery/pic-blog-1.jpg" alt=""></a>
+                            </figure>
+                            <div class="textwrap">
+                                <h5>مواد كهرباء</h5>
+                                <ul class="meta m-0 p-0">
+                                    <li>
+                                        <i class="fa fa-user"></i><a href="">الادمن</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tag"></i><a href="">تيكنو</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-comments"></i><a href="">20 تعليق</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-md-5 row hor-cen">
+                        <article class="pt5 col-md-6">
+                            <figure>
+                                <a href="" class="img-hover"><img src="../New folder/gallery/pic-blog-2.jpg" alt=""></a>
+                            </figure>
+                            <div class="textwrap">
+                                <h5>مواد هامه</h5>
+                                <ul class="meta m-0 p-0">
+                                    <li>
+                                        <i class="fa fa-user"></i><a href="">الادمن</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tag"></i><a href="">تيكنو</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-comments"></i><a href="">20 تعليق</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- second art -->
+                        <article class="pt5 col-md-6">
+                            <figure>
+                                <a href="" class="img-hover"><img src="../New folder/gallery/pic-blog-3.jpg" alt=""></a>
+                            </figure>
+                            <div class="textwrap">
+                                <h5>مواد ميكانيكيه</h5>
+                                <ul class="meta m-0 p-0">
+                                    <li>
+                                        <i class="fa fa-user"></i><a href="">الادمن</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tag"></i><a href="">تيكنو</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-comments"></i><a href="">20 تعليق</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- third art -->
+                        <article class="pt5 col-md-6">
+                            <figure>
+                                <a href="" class="img-hover"><img src="../New folder/gallery/pic-blog-4.jpg" alt=""></a>
+                            </figure>
+                            <div class="textwrap">
+                                <h5>مواد كهرباء</h5>
+                                <ul class="meta m-0 p-0">
+                                    <li>
+                                        <i class="fa fa-user"></i><a href="">الادمن</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tag"></i><a href="">تيكنو</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-comments"></i><a href="">20 تعليق</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        <!-- four -->
+                        <article class="pt5 col-md-6">
+                            <figure>
+                                <a href="" class="img-hover"><img src="../New folder/gallery/pic-blog-1.jpg" alt=""></a>
+                            </figure>
+                            <div class="textwrap">
+                                <h5>مواد كهرباء</h5>
+                                <ul class="meta m-0 p-0">
+                                    <li>
+                                        <i class="fa fa-user"></i><a href="">الادمن</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-tag"></i><a href="">تيكنو</a>
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-comments"></i><a href="">20 تعليق</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </article>
+                        
+
+                    </div>
+                </div>
+            </div>
+             </div>
+            <!-- end news and updates -->
+            <!-- body footer -->
+            <div class="wrapper text-grey p-5" id="body-footer">
+               <footer class="row">
+                   <!-- addres -->
+                   <div class="col-md-4 py-5" id="contact">
+                       <h5 class="text-white py-3">بامكانك التواصل معنا</h5>
+                       <ul class="linklist contact mb-5 p-0 ">
+                           <li> <i class="fa fa-map-marker"></i>
+                                <address>
+                                    اسم الشارع&amp;الرقنم,
+                                    <br>شارع الجلاء( المعز) - 210145
+                                    <br>طلخا  , مصر
+                                </address>
+                            </li>
+                           <li>
+                            <i class="fa fa-phone"></i> +91 584 545 555
+                            </li>
+                            <i class="fa fa-envelope"></i>
+                                Tanztailks.tech@gmail.com
+                            </li>
+  
+                       </ul>
+                       <!-- social-icon -->
+                       <ul class="  social-icon  ">
+                        <li><a href="#" class="faicon-facebook rounded-circle px-1">
+                            <i class="fa fa-facebook"></i>
+                        </a></li>
+
+                        <li><a href="#" class="faicon-instagram rounded-circle px-1">
+                            <i class="fa fa-instagram"></i>
+                        </a></li>
+                        <li><a href="#" class="faicon-twitter rounded-circle px-1">
+                            <i class="fa fa-twitter"></i>
+                        </a></li> 
+                        <li>
+                            <a href="#" class="faicon-twitter rounded-circle px-1">
+                            <i class="fa fa-twitter"></i>
+                        </a></li>
+                       
+                       
+
+                    </ul>
+                   </div>
+                   <!-- blog section -->
+                   <div class="col-md-4 py-5">
+                       <h5 class="text-white py-3">اخر صحيفه للجريده</h5>
+                       <ul class="linklist m-0 p-0  ">
+                           <li>
+                               <article>
+                                   <h5 class="m-0 p-0"><a href="">ما هو الهدف من القصه؟</a></h5>
+                                   <time class="font-xs d-block" datetime="18/1/1993">الاحد, 18 <sup>من</sup> يناير 1993
+                                       
+                                   </time>
+                                   <p>  بحلول عام 2000 ، أصبح ديب أسطورة سينمائية يوقرها العالم، مصنفاً من قبل هوليوود كواحد من عظمائها وأساطيرها، معروفاً كسيد من أسياد التمثيل وكأفضل مجسد للشخصيات علي الإطلاق. أصبح جوني ديب محبباً للجمهور وللنقاد[&hellip;]</p>
+                               </article>
+                           </li>
+                           <li>
+                            <article>
+                                <h5 class="m-0 p-0"><a href="">ما هو الهدف من القصه؟</a></h5>
+                                <time class="font-xs d-block" datetime="18/1/1993">الاحد, 18 <sup>من</sup> يناير 1993
+                                    
+                                </time>
+                                <p>  بحلول عام 2000 ، أصبح ديب أسطورة سينمائية يوقرها العالم، مصنفاً من قبل هوليوود كواحد من عظمائها وأساطيرها، معروفاً كسيد من أسياد التمثيل وكأفضل مجسد للشخصيات علي الإطلاق. أصبح جوني ديب محبباً للجمهور وللنقاد[&hellip;]</p>
+                            </article>
+                        </li>
+                       </ul>   
+
+                    </div>
+                    <!-- newsletter       -->
+                    <div class="col-md-4 py-5">
+                        <h5 class="text-white py-3">التحق  بافصل اعمالنا</h5>
+                        <p class="p-0 mb-5">                                <p>  بحلول عام 2000 ، أصبح ديب أسطورة سينمائية يوقرها العالم، مصنفاً من قبل هوليوود كواحد من عظمائها وأساطيرها، معروفاً كسيد من أسياد التمثيل وكأفضل مجسد للشخصيات علي الإطلاق. أصبح جوني ديب محبباً للجمهور وللنقاد[&hellip;]</p>
+                    </p>
+                        <form action="">
+                            <fieldset>
+                                <input class="mb-3" type="text" name="name" placeholder="الاسم">
+                                <input  class="mb-3" type="email" name="Email" placeholder="الايميل">
+                                <button type="submit" class="btn btn-danger d-block"> تسجيل</button>
+                            </fieldset>
+                        </form>
+                    </div>
+               </footer>
+            </div>
+            <!--end body footer -->
+            
+
+
+
+          </div>
+
+      </div>
+      <!-- copyright -->
+      <div class="px-5 mx-5" id="copyright">
+          <div class="d-flex justify-content-between">
+              <p>Copyright &copy; 2050 - All Rights Reserved - <a href="">Tanztailks</a></p>
+              <p>Templet by <a href="https://www.facebook.com/">احمد منصف</a></p>
+          </div>
+      </div>
+      <!-- scroll to top -->
+      <a href="#top" id="backtotop"> <i class="fa fa-chevron-up"></i></a>
+
+
+
+
+
+
+
+
+   
+    <!-- Bootstrap (JQuery) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Plugin (Popper.js) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap (JavaScript) -->
+    <script
+    src="https://cdn.rtlcss.com/bootstrap/v4.2.1/js/bootstrap.min.js"
+    integrity="sha384-a9xOd0rz8w0J8zqj1qJic7GPFfyMfoiuDjC9rqXlVOcGO/dmRqzMn34gZYDTel8k"
+    crossorigin="anonymous"></script>	<!-- Position BackToTop button after cover image is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.backtotop.js"></script>
+
+    <!-- Make The Navigation Bar fixed on top once the header is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.navbar-fix-top.js"></script>
+
+    <!-- Position Sticky Social Bar after cover image is scrolled up -->
+    <script type="text/javascript" src="scripts/jquery.sticky-social-bar.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/pugs.js"></script>
+
+
+
+
+
+
+
+
+
+
+   
+
+</body>
+</html>
